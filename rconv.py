@@ -104,7 +104,7 @@ def helpFlag():
 # check for enough args or help flag
 def preChecks(argsl):
     if (argsl != 4 and argsl != 5 or helpFlag()):
-        print("\nenter 'bconv.py r1 r2 N [f]'")
+        print("\nenter 'rconv.py r1 r2 N [f]'")
         print("converts the number N from base r1 to base r2, with f floating points (default 10)")
         print("\nreccommended maximum radix of 36 (10 digits + 26 letters)")
         print("larger bases can be acheived by changing MAXBASE in line 1")

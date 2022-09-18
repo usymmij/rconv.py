@@ -1,8 +1,6 @@
 MAXBASE=36
 
-from operator import truediv
 import sys
-from tkinter.tix import MAX
 import numpy as np
 r1=0
 dmax=0

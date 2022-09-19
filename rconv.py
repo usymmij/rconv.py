@@ -1,7 +1,6 @@
 MAXBASE=36
 
 import sys
-import numpy as np
 r1=0
 dmax=0
 r2=0
